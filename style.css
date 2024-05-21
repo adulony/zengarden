@@ -130,5 +130,45 @@ aside ul li {
     align-self: center;
 }
 
+@media screen and (max-width: 768px){
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    .main-supporting {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction:column
+
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;   
+    }
+    #zen-intro header {
+        background-color: gray;
+        color:#590925
+    }
+}
+
 
 
